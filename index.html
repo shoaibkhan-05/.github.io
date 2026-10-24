@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Personal portfolio of Shoaib Khan, aspiring full-stack developer.">
+<title>Shoaib Khan | Portfolio</title>
+<style>
+:root{--bg:#0b1120;--panel:#121d32;--blue:#60a5fa;--text:#f8fafc;--muted:#cbd5e1}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{font-family:Arial,Helvetica,sans-serif;margin:0;background:var(--bg);color:var(--text);line-height:1.65}
+nav{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;padding:18px max(20px,calc((100% - 1000px)/2));background:#0b1120;border-bottom:1px solid #26344c;position:sticky;top:0}
+nav strong{color:var(--blue)}nav a{color:var(--muted);text-decoration:none;margin-left:15px;font-size:.95rem}
+.hero{padding:85px 20px 75px;text-align:center;background:radial-gradient(ellipse at top,#1e3a8a 0%,#0b1120 70%)}
+.hero .tag{color:#bfdbfe;font-weight:bold;letter-spacing:2px;text-transform:uppercase;font-size:.8rem}
+h1{font-size:clamp(2.4rem,7vw,4.4rem);line-height:1.1;margin:18px 0}
+.hero p{max-width:650px;margin:0 auto 25px;color:var(--muted);font-size:1.1rem}
+.btn{display:inline-block;background:var(--blue);color:#071426;text-decoration:none;font-weight:bold;padding:11px 18px;border-radius:9px;margin:5px}
+.btn.secondary{background:transparent;color:#dbeafe;border:1px solid #60a5fa}
+section{max-width:950px;margin:auto;padding:42px 20px}h2{color:var(--blue);font-size:1.7rem;margin-top:0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.card{background:var(--panel);border:1px solid #25334b;border-radius:15px;padding:22px}
+.card h3{margin-top:0}p,li{color:var(--muted)}.pills{display:flex;flex-wrap:wrap;gap:9px}
+.pill{background:#1e293b;border:1px solid #334155;border-radius:99px;padding:7px 12px;color:#dbeafe;font-size:.92rem}
+.contact a{color:#bfdbfe;overflow-wrap:anywhere}
+footer{text-align:center;padding:25px;border-top:1px solid #26344c;color:#94a3b8}
+@media(max-width:560px){nav{position:static}nav a{margin:0 10px 0 0}.hero{padding-top:60px}}
+</style>
+</head>
+<body>
+<nav><strong>SK.</strong><div><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div></nav>
+<header class="hero">
+<div class="tag">Personal Portfolio</div>
+<h1>Hi, I'm Shoaib Khan</h1>
+<p>Aspiring Full-Stack Developer passionate about building useful, responsive, and user-friendly web applications.</p>
+<a class="btn" href="#projects">View My Projects</a>
+<a class="btn secondary" href="#contact">Contact Me</a>
+</header>
+<section id="about">
+<h2>About Me</h2>
+<div class="card"><p>I'm a Computer Engineering student who enjoys developing web applications, solving programming problems, and exploring modern technologies. I aim to create practical digital solutions and keep improving through hands-on projects and continuous learning.</p></div>
+</section>
+<section id="skills">
+<h2>Skills & Strengths</h2>
+<div class="card"><div class="pills">
+<span class="pill">HTML</span><span class="pill">CSS</span><span class="pill">JavaScript</span><span class="pill">React.js</span><span class="pill">Node.js</span><span class="pill">Express.js</span><span class="pill">MongoDB</span><span class="pill">MySQL</span><span class="pill">Bootstrap</span><span class="pill">Tailwind CSS</span><span class="pill">Java</span><span class="pill">Python</span><span class="pill">Git & GitHub</span><span class="pill">REST APIs</span><span class="pill">Data Structures & Algorithms</span>
+</div><p><strong>Strengths:</strong> Problem-solving, teamwork, adaptability, and continuous learning.</p></div>
+</section>
+<section id="projects">
+<h2>Featured Projects</h2>
+<div class="grid">
+<div class="card"><h3>iNotebook</h3><p>A full-stack notes application featuring user authentication and create, read, update, and delete operations.</p><p><strong>Tech:</strong> React, Node.js, Express, MongoDB</p></div>
+<div class="card"><h3>MERN Real-Time Chat App</h3><p>A chat application concept focused on real-time communication and a user-friendly messaging experience.</p><p><strong>Tech:</strong> MongoDB, Express, React, Node.js</p></div>
+<div class="card"><h3>Airbnb Clone</h3><p>A rental-listing website clone built to practise web application structure and server-side functionality.</p><p><strong>Tech:</strong> Express.js, JavaScript</p></div>
+</div>
+</section>
+<section id="contact">
+<h2>Contact Me</h2>
+<div class="card contact">
+<p>Feel free to reach out for collaboration, learning opportunities, or web development discussions.</p>
+<p><strong>Email:</strong> <a href="mailto:shoaibkhan03012@gmail.com">shoaibkhan03012@gmail.com</a></p>
+<p><strong>Mobile:</strong> <a href="tel:+918007021292">+91 8007021292</a></p>
+<p><strong>GitHub:</strong> <a href="https://github.com/shoaibkhan-05" target="_blank" rel="noopener">github.com/shoaibkhan-05</a></p>
+</div>
+</section>
+<footer>© 2026 Shoaib Khan · Personal Portfolio</footer>
+</body>
+</html>
